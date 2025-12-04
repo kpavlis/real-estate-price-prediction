@@ -1,5 +1,5 @@
-# 🏠Real estate median price prediction using machine learning algorithms
-The program implements machine learning models for houses' price prediction, based on houses' characteristics, and shows the classifiers according to the machine learning model. The program calculates mean and absolute square error and uses  10 fold cross validation for each machine learning model.
+# 🏠Real Estate median price prediction using Machine Learning Algorithms
+**The program implements machine learning models for houses' price prediction, based on houses' characteristics, and shows the classifiers according to the machine learning model. The program calculates mean and absolute square error and uses  10 fold cross validation for each machine learning model.**
 
 ## ⚡Features
  - 🔢Pre-proccess data:
@@ -35,7 +35,7 @@ Required Libraries:
  - Sci-kit learn
  - keras
 
-# 🧪 How to Run
+## 🧪 How to Run
 Clone the repository (or download and decompress the ZIP file).
 ```bash
 git clone https://github.com/theofanistzoumakas/real-estate-price-prediction.git
@@ -84,17 +84,15 @@ The source file must be a csv file, with columns:
 The purpose of this project was to learn and explore how to extract and analyse data, how to predict values using machine learning algorithms, and how to evaluate machine learning models' performance.
 
 **This application is developed solely for academic and research purposes.**
-## 🔒 Code Ownership & Usage Terms
+# 🔒 Code Ownership & Usage Terms
 This project was created and maintained by:
 
-Theofanis Tzoumakas (@theofanistzoumakas)
+- Theofanis Tzoumakas (@theofanistzoumakas)
+- Konstantinos Pavlis (@kpavlis)
+- Michael-Panagiotis Kapetanios (@KapetaniosMP)
 
-Konstantinos Pavlis (@kpavlis)
-
-Michael-Panagiotis Kapetanios (@KapetaniosMP)
-
-🚫 Unauthorized use is strictly prohibited.
-No part of this codebase may be copied, reproduced, modified, distributed, or used in any form without explicit written permission from the owners.
+**🚫 Unauthorized use is strictly prohibited.**
+No part of this codebase may be copied, reproduced, modified, distributed, or used in any form without **explicit written permission** from the owners.
 
 Any attempt to use, republish, or incorporate this code into other projects—whether commercial or non-commercial—without prior consent may result in legal action.
 
