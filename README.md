@@ -1,31 +1,31 @@
-# 🏠Real Estate median price prediction using Machine Learning Algorithms
+# 🏠 Real Estate median price prediction using Machine Learning Algorithms
 **The program implements machine learning models for houses' price prediction, based on houses' characteristics, and shows the classifiers according to the machine learning model. The program calculates mean and absolute square error and uses  10 fold cross validation for each machine learning model.**
 
-## ⚡Features
- - 🔢Pre-proccess data:
+## ⚡ Features
+ - 🔢 Pre-proccess data:
     - One Hot Vector
     - Scaling data
     - Filling null values with the column's mean value
- - 📝Threshold calculation (threshold is the mean value)
- - 📊Histgram construction
- - 📈Diagrams construction with values (values are divided into four diagramms for visual clarity reasons):
+ - 📝 Threshold calculation (threshold is the mean value)
+ - 📊 Histgram construction
+ - 📈 Diagrams construction with values (values are divided into four diagramms for visual clarity reasons):
     - 1st: Scaled Longitude, scaled latitude and near ocean columns
     - 2nd: Scaled total rooms, scaled total bedrooms and less than 1h ocean columns
     - 3rd: Scaled households, scaled median income and inland columns
     - 4th: Scaled median house value and island
- - 📈Classifier construction using all data through perceptron algorithm
- - 📈Classifier construction using all data through least squares algorithm
- - 🔟Ten fold cross validation:
+ - 📈 Classifier construction using all data through perceptron algorithm
+ - 📈 Classifier construction using all data through least squares algorithm
+ - 🔟 Ten fold cross validation:
     - Using perceptron and least squares algorithm and
     - Mean absolute error calculation
     - Mean square error calculation
- - 🔟Ten fold cross validation:
+ - 🔟 Ten fold cross validation:
     - Using multilayer network
       - The model is sequential with 3 layers, learning rate 0.001, 40 epochs, bach size 10 and mean square error loss function
     - Mean absolute error calculation
     - Mean square error calculation
 
-## 🧰Prerequisites
+## 🧰 Prerequisites
 
 Before running the application, make sure your environment is properly configured.
  - Python 3.9+ is recommended
@@ -38,7 +38,7 @@ Required Libraries:
 ## 🧪 How to Run
 Clone the repository (or download and decompress the ZIP file).
 ```bash
-git clone https://github.com/theofanistzoumakas/real-estate-price-prediction.git
+git clone https://github.com/kpavlis/real-estate-price-prediction.git
    cd real-estate-price-prediction
 ```
 
@@ -75,12 +75,12 @@ The source file must be a csv file, with columns:
        - Least squares algorithm
        - Multilayer network
 
-## 📸Indicative screenshots
+## 📸 Indicative screenshots
 <img width="250" height="250" alt="histogram_screenshot" src="assets/histogram_screenshot.png" />
 <img width="250" height="250" alt="first_graph_screenshot" src="assets/first_graph_screenshot.png" />
 <img width="250" height="250" alt="third_graph_screenshot" src="assets/third_graph_screenshot.png" />
 
-## 🎯Purpose
+## 🎯 Purpose
 The purpose of this project was to learn and explore how to extract and analyse data, how to predict values using machine learning algorithms, and how to evaluate machine learning models' performance.
 
 **This application is developed solely for academic and research purposes.**
