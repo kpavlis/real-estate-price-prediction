@@ -39,7 +39,7 @@ Required Libraries:
 Clone the repository (or download and decompress the ZIP file).
 ```bash
 git clone https://github.com/kpavlis/real-estate-price-prediction.git
-   cd real-estate-price-prediction
+cd real-estate-price-prediction
 ```
 
 Specify the path to your image dataset
