@@ -36,17 +36,17 @@ Required Libraries:
  - keras
 
 ## 🧪 How to Run
-Clone the repository (or download and decompress the ZIP file).
+**Clone the repository (or download and decompress the ZIP file)**
 ```bash
 git clone https://github.com/kpavlis/real-estate-price-prediction.git
 cd real-estate-price-prediction
 ```
 
-Specify the path to your image dataset
+**Specify the path to your image dataset**
 ```bash
 thisfile = pd.read_csv('your_souce_file',delimiter=',');
 ```
-The source file must be a csv file, with columns:
+**The source file must be a csv file**, with columns:
  - longitude
  - latitude
  - housing_median_age
