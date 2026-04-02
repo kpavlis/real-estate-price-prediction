@@ -1,6 +1,9 @@
 # 🏠 Real Estate median price prediction using Machine Learning Algorithms
 **The program implements machine learning models for houses' price prediction, based on houses' characteristics, and shows the classifiers according to the machine learning model. The program calculates mean and absolute square error and uses  10 fold cross validation for each machine learning model.**
 
+> ℹ️ This project is not open source and does not grant any usage rights.
+> For usage terms and legal information, see [Code Ownership & Usage Terms](#-code-ownership--usage-terms).
+
 ## ⚡ Features
  - 🔢 Pre-proccess data:
     - One Hot Vector
@@ -24,6 +27,11 @@
       - The model is sequential with 3 layers, learning rate 0.001, 40 epochs, bach size 10 and mean square error loss function
     - Mean absolute error calculation
     - Mean square error calculation
+
+## 🎯 Purpose
+The purpose of this project was to learn and explore how to extract and analyse data, how to predict values using machine learning algorithms, and how to evaluate machine learning models' performance.
+
+**This application is developed solely for academic and research purposes.**
 
 ## 🧰 Prerequisites
 
@@ -80,10 +88,6 @@ thisfile = pd.read_csv('your_souce_file',delimiter=',');
 <img width="250" height="250" alt="first_graph_screenshot" src="assets/first_graph_screenshot.png" />
 <img width="250" height="250" alt="third_graph_screenshot" src="assets/third_graph_screenshot.png" />
 
-## 🎯 Purpose
-The purpose of this project was to learn and explore how to extract and analyse data, how to predict values using machine learning algorithms, and how to evaluate machine learning models' performance.
-
-**This application is developed solely for academic and research purposes.**
 # 🔒 Code Ownership & Usage Terms
 This project was created and maintained by:
 
@@ -96,6 +100,6 @@ No part of this codebase may be copied, reproduced, modified, distributed, or us
 
 Any attempt to use, republish, or incorporate this code into other projects—whether commercial or non-commercial—without prior consent may result in legal action.
 
-For licensing inquiries or collaboration requests, please contact via email: theftzoumi _at_ gmail _dot_ com .
+For licensing inquiries or collaboration requests, please contact via email: theftzoumi _at_ gmail.com .
 
 © 2026 Theofanis Tzoumakas, Konstantinos Pavlis, Michael-Panagiotis Kapetanios. All rights reserved.
